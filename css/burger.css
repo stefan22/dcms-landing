@@ -1,0 +1,426 @@
+/* navbar active color nav active hover */
+.navbar-default .nav > li.active > a,
+.navbar-default .nav > li.active > a:focus {
+  color: #515151;
+  text-decoration: underline;
+  background-color: transparent;
+}
+
+@media screen and (max-width: 767px) {
+  .navbar-collapse.collapse {
+    border-top: 1px solid #bdbdbd;
+    transition: height 0.4s linear 100ms, max-height 0.3s linear 100ms,
+      background-color 0.4s linear 100ms, display 0.4s linear 100ms,
+      box-sizing 1s linear 100ms, padding 0.4s linear 100ms,
+      margin-bottom 0.4s linear 100ms, transform 1s linear 100ms,
+      width 0.4s linear 100ms, overflow 1s linear 100ms,
+      box-shadow 1s linear 100ms, position 0.4s linear 100ms,
+      margin-top 0.4s linear 100ms, background-image 0.4s linear 100ms,
+      margin-right 0.4s linear 100ms;
+  }
+}
+
+.navbar-default {
+  z-index: 999;
+  box-shadow: 1px 0px 3px 1px rgba(0, 0, 0, 0.35);
+  border-bottom: 1px solid #37474f;
+}
+
+.navbar-default .nav > li.active > a:hover,
+.navbar-default .nav > li.active > a:focus:hover {
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.navbar-default .nav > li > a:hover,
+.navbar-default .nav > li > a:focus:hover {
+  text-decoration: underline;
+}
+
+.navbar-brand {
+  padding: 18px 15px !important;
+}
+
+/* button */
+.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle {
+  background-color: #ffffff;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #000000;
+}
+
+/* section 2 */
+
+.content-2 {
+  scroll-snap-align: start;
+  padding: 7rem 1.5rem 7rem;
+  background-color: #fff;
+}
+
+h2.section-header {
+  text-align: center;
+  color: #373737;
+  font-size: 5rem;
+  line-height: 1.25;
+  letter-spacing: 0.25px;
+}
+
+.content-2 img {
+  width: 100%;
+  max-width: 800px;
+  height: auto;
+}
+
+.content-2 p {
+  color: #515151;
+  margin-bottom: 3rem;
+  margin: 3rem 0;
+  font-size: 2rem;
+  text-align: left;
+}
+
+.content-2 a.btn {
+  color: #f44336;
+  border-radius: 3px;
+  font-size: 1.5rem;
+  padding: 12px 30px;
+  transition: background-color 0.4s linear 25ms, color 0.4s linear 25ms,
+    border-color 0.4s linear 50ms;
+  font-size: 1.7rem;
+  width: 100%;
+  margin: 2.25rem 0 5rem;
+}
+
+.content-2 a.btn {
+  color: #f44336;
+  border-radius: 3px;
+  font-size: 1.5rem;
+  border: 1px solid #f96665;
+  font-size: 1.5rem;
+  padding: 12px 30px;
+  transition: background-color 0.4s linear 25ms, color 0.4s linear 25ms,
+    border-color 0.4s linear 50ms;
+}
+
+.content-2 .geotxt a.btn:hover,
+.content-2 .geotxt a.btn:focus,
+.content-2 .geotxt a.btn:active,
+.content-2 .geotxt a.btn:active > .content-2 .geotxt a.btn:focus {
+  background-color: #415260;
+  color: white;
+  border-color: #045804;
+}
+
+.content-2 a.btn:active,
+.content-2 a.btn:focus {
+  background-color: transparent;
+  outline: none;
+}
+
+.intro {
+  scroll-snap-align: start;
+  background: url('../img/rad8bg.jpg') no-repeat center center;
+  padding: 10rem 0 10rem;
+  width: 100%;
+  background-size: cover;
+  height: auto;
+}
+
+.intro {
+  padding: 7rem 1.5rem 7rem;
+  background-color: #fff;
+}
+.intro h2 {
+  font-weight: 400;
+  text-align: center;
+  font-size: 5rem;
+  line-height: 1.25;
+  color: #ffffff;
+  letter-spacing: 0.25px;
+}
+.intro p {
+  color: #f3f1f1;
+  margin-bottom: 3rem;
+  margin: 3rem 0;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.intro a.btn {
+  margin: 2.25rem 0 5rem;
+  border-radius: 3px;
+}
+
+.content-3 {
+  padding: 20px 0 40px;
+  text-align: center;
+}
+
+.contento-wrap a {
+  font-size: 1.7rem;
+  width: 100%;
+  margin: 2.25rem 0 5rem;
+  color: #f44336;
+  border-radius: 3px;
+  border: 1px solid #f96665;
+  background: transparent;
+  padding: 12px 30px;
+  transition: background-color 0.4s linear 25ms, color 0.4s linear 25ms,
+    border-color 0.4s linear 50ms;
+}
+
+.header-content-inner {
+  padding: 0 1.5rem;
+}
+
+@media screen and (max-width: 767px) {
+  .header-content-inner a {
+    width: 95%;
+  }
+
+  .btn-primary {
+    font-size: 1.6rem;
+    width: 100%;
+    letter-spacing: 0.25px;
+  }
+
+  .navbar-default .navbar-header .navbar-brand img.logo-mobile {
+    width: 100%;
+    max-width: 112px;
+    display: block;
+    height: auto;
+  }
+
+  .navbar-default .navbar-header .navbar-brand img.logo-desktop {
+    width: 100%;
+    max-width: 112px;
+    height: auto;
+    display: none;
+    mix-blend-mode: difference;
+  }
+
+  .contento-wrap .learn-button a:hover,
+  .contento-wrap .learn-button a:active,
+  .contento-wrap .learn-button a:focus,
+  .contento-wrap .learn-button a:active > .contento-wrap .learn-button a:focus {
+    background-color: rgba(57, 82, 96, 0.51);
+    color: white;
+    border-color: rgba(63, 68, 64, 0.8);
+  }
+
+  .content-2 p {
+    text-align: center;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1366px) {
+  .geotxt {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .geotxt h2.section-header,
+  .geotxt p {
+    text-align: center;
+  }
+  .geotxt a.btn {
+    margin: 3rem auto 3rem;
+  }
+  .content-2 img {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+  }
+
+  .content-2 p {
+    text-align: center;
+  }
+}
+
+@media (min-width: 768px) {
+  .navbar-default {
+    z-index: 999;
+    border-bottom: 1px solid #101617;
+    box-shadow: 0 2px 24px -10px rgba(50, 50, 93, 0.25),
+      0 4px 12px -6px rgba(0, 0, 0, 0.3), 0 -6px 15px -7px rgba(0, 0, 0, 0.025);
+    transition: background-color linear 0.35s 0ms, box-shadow linear 0.35s 0ms,
+      border linear 0.35s 0ms;
+    background-color: transparent;
+  }
+  .navbar-default .nav > li.active > a,
+  .navbar-default .nav > li.active > a:focus {
+    color: #ffffff;
+  }
+  .navbar-default .nav > li.active > a:hover,
+  .navbar-default .nav > li.active > a:focus:hover {
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
+  .navbar-default .nav > li > a:hover,
+  .navbar-default .nav > li > a:focus:hover {
+    text-decoration: underline;
+  }
+
+  .navbar-default.affix {
+    z-index: 999;
+    border-color: #fff;
+    background-color: #fff;
+    box-shadow: 0px 7px 20px 0px rgba(0, 0, 0, 0.1);
+  }
+
+  .navbar-default.affix .navbar-header .navbar-brand img {
+    max-width: 112px;
+    width: 100%;
+    height: auto;
+    mix-blend-mode: difference;
+  }
+
+  .navbar-default.affix .nav > li > a:hover,
+  .navbar-default.affix .nav > li > a:focus:hover {
+    color: #f44336;
+    font-weight: 400;
+  }
+
+  .navbar-default .navbar-header .navbar-brand img.logo-mobile {
+    width: 100%;
+    max-width: 112px;
+    display: none;
+    height: auto;
+    mix-blend-mode: difference;
+  }
+
+  .navbar-default .navbar-header .navbar-brand img.logo-desktop {
+    width: 100%;
+    max-width: 112px;
+    height: auto;
+    display: block;
+    mix-blend-mode: difference;
+  }
+
+  /* navbar items*/
+  .navbar-default .nav > li > a,
+  .navbar-default .nav > li > a:focus {
+    color: #ebebeb;
+  }
+
+  .navbar-default .nav > li > a:hover,
+  .navbar-default .nav > li > a:focus:hover {
+    color: #ffffff;
+    text-decoration: underline;
+  }
+
+  /* navbar scroll down */
+  .navbar .navbar-default .navbar-fixed-top.affix {
+    z-index: 999;
+  }
+
+  .btn-primary {
+    font-size: 1.7rem;
+    width: auto;
+  }
+
+  .content-2 {
+    padding: 10rem 0 10rem;
+    color: #373737;
+    background-color: #fff;
+  }
+
+  h2.section-header {
+    color: #373737;
+    font-size: 7rem;
+    text-align: left;
+    margin-bottom: 2rem;
+  }
+
+  .content-2 p {
+    color: #515151;
+    margin-bottom: 3rem;
+  }
+
+  .content-2 a.btn {
+    color: #f44336;
+    border-radius: 3px;
+    font-size: 1.5rem;
+    border: 1px solid #f96665;
+    width: auto;
+    padding: 12px 30px;
+    transition: background-color 0.4s linear 25ms, color 0.4s linear 25ms,
+      border-color 0.4s linear 50ms;
+  }
+
+  .intro h2 {
+    color: #fefefe;
+    font-size: 7rem;
+    margin-bottom: 2rem;
+    font-weight: 400;
+  }
+
+  .intro p {
+    color: #fdfdfd;
+    line-height: 2;
+    font-size: 2rem;
+    font-weight: 300;
+    margin-bottom: 3rem;
+  }
+
+  .learn-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .contento-wrap a {
+    border-radius: 3px;
+    padding: 12px 30px;
+    border-color: #f56565;
+    color: #f44336;
+    font-size: 1.5rem;
+    flex: 0 1 153px;
+    text-align: center;
+    background-color: transparent;
+    transition: background-color 0.4s linear 25ms, color 0.4s linear 25ms,
+      border-color 0.4s linear 50ms;
+  }
+
+  .contento-wrap a:hover {
+    background-color: rgba(57, 82, 96, 0.51);
+    color: white;
+    border-color: rgba(63, 68, 64, 0.8);
+  }
+
+  .contento-wrap a:active,
+  .contento-wrap a:focus,
+  .contento-wrap a:active > contento-wrap a:focus {
+    background-color: #415260 !important;
+    color: white !important;
+    border-color: #3f4440 !important;
+    outline: none !important;
+  }
+}
+/* end of 768 */
+
+.lazy {
+  visibility: hidden;
+}
+
+.visible {
+  visibility: visible;
+}
+
+body {
+  scroll-snap-type: mandatory;
+}
+
+/* .img-responsive.lazy {
+  visibility: hidden;
+} */
+
+/* 
+.img-responsive.visible {
+  visibility: visible;
+} */
